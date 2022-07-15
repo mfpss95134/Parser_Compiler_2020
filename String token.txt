@@ -1,0 +1,47 @@
+a b b c d $
+b q $
+c $
+c c $
+a b a d c $
+
+a c $
+b c $
+c $
+a a c $
+a b $
+
+( v + f ( v ) ) $
+v + f ( ( v ) ) $
+f ( v + ( ( v ) ) ) $
+v $
+f v + ( ( v ) ) $
+
+lp plus lp plus prod num rp prod lp prod num plus plus rp rp $
+lp plus lp prod lp prod rp plus num plus rp prod rp $
+lp prod num plus lp plus lp prod rp prod rp plus rp $
+$
+lp plus prod rp $
+
+lparen plus num lparen prod num num rparen rparen $
+lparen plus lparen plus num num rparen lparen prod rparen rparen $
+lparen prod rparen $
+num $
+lparen plus num rparen $
+
+begin begin end ; simplestmt ; simplestmt ; end $
+begin simplestmt ; begin end ; end $
+begin end $
+begin simplestmt ; begin end ; end end $
+begin begin simplestmt ; end ; $
+
+-id ( ( id - - ( id ) ) ) - id $
+( - id - id ) $
+id ( id ) $
+id ( id - id - ) $
+- id ( ( id - ( id ) ) $
+
+floatdcl id intdcl id id assign id plus inum minus fnum id assign inum print id $
+intdcl id print id print id $
+print id id assign inum minus id $
+intdcl id $
+$ 

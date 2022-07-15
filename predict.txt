@@ -1,0 +1,9 @@
+a b q c $ 
+c 
+$ d 
+a 
+b q c $ 
+b 
+c d q c $ 
+q 
+c $ 

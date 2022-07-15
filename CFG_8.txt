@@ -1,0 +1,15 @@
+1 Prog > Dcls Stmts $
+2 Dcls > Dcl Dcls
+3 | L
+4 Dcl > floatdcl id
+5 | intdcl id
+6 Stmts > Stmt Stmts
+7 | L
+8 Stmt > id assign Val Expr
+9 | print id
+10 Expr > plus Val Expr
+11 | minus Val Expr
+12 | L
+13 Val > id
+14 | inum
+15 | fnum
